@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="radius_min">2dp</dimen>
+    <dimen name="radius_mid">4dp</dimen>
+
+    <dimen name="space_min">8dp</dimen>
+    <dimen name="space_mid">16dp</dimen>
+</resources>

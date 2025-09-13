@@ -1,0 +1,16 @@
+<resources>
+    <color name="md_theme_primary">#0E3165</color>
+    <color name="md_theme_onPrimary">#FFFFFF</color>
+    <color name="md_theme_secondary">#ffc967</color>
+    <color name="md_theme_onSecondary">#000000</color>
+    <color name="md_theme_background">#FFFFFF</color>
+    <color name="md_theme_onBackground">#000000</color>
+    <color name="md_theme_surface">#FFFFFF</color>
+    <color name="md_theme_onSurface">#000000</color>
+    <color name="md_theme_surfaceVariant">#efefef</color>
+    <color name="md_theme_onSurfaceVariant">#cbcbcb</color>
+    <color name="md_theme_scrim">#000000</color>
+
+    <color name="snackbar_color">#232323</color>
+
+</resources>

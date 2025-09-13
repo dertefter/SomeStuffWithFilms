@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph.xml"
+    app:startDestination="@id/films">
+
+    <fragment
+        android:id="@+id/filmsDetail"
+        android:name="com.dertefter.somestuffwithfilms.fragments.film_detail.FilmsDetailFragment"
+        android:label="FilmsDetail"
+        tools:layout="@layout/fragment_film_detail" >
+        <argument
+            android:name="film"
+            app:argType="com.dertefter.somestuffwithfilms.data.model.Film" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/films"
+        android:name="com.dertefter.somestuffwithfilms.fragments.films.FilmsFragment"
+        android:label="FilmsDetail"
+        tools:layout="@layout/fragment_films" >
+        <action
+            android:id="@+id/action_films_to_filmsDetail"
+            app:destination="@id/filmsDetail" />
+    </fragment>
+</navigation>
